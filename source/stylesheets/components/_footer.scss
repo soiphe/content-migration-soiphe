@@ -1,0 +1,25 @@
+#footer {
+  background: #333333;
+  padding: 30px 20px;
+  color: #CCCCCC;
+  display: flex;
+  justify-content: space-between;
+  p {
+  margin-top: 17px;
+  }
+  ul {
+  margin-top: 10px;
+  }
+  a {
+  color: #CCCCCC;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+    &:hover{
+    color: yellow;
+    }
+  }
+  &-item {
+  align-self: center;
+  }
+}
